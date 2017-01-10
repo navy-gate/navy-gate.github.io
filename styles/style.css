@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+html,body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: "Lato";
+	height: 100%;
+	width: 100%;
+}
+header
+{
+	height: 76%;
+	width: 100%;
+	background-color: #0F509A;
+	display: flex;
+	flex-direction: column;
+
+}
+.header-home-title,.header-home-offers
+{
+	color: white;
+    font-weight: 400;
+    padding: 12px;
+    display: inline-flex;
+    margin:20px 0;
+    
+
+}
+.header-home-offers
+{
+	margin: 0 20px;
+}
+.header-home-title
+{
+
+}
+.header-menu-list
+{
+	display: flex;
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+}
