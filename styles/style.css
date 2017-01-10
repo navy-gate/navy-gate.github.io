@@ -20,16 +20,17 @@ header
 	background-color: var(--color-main);
 	display: flex;
 	flex-direction: column;
+	
 
 }
 .header-home-title,.header-home-offers
 {
-	color: var(--color-main);
+	color: white;
     font-weight: 400;
     padding: 12px;
     display: inline-flex;
     margin:20px 0;
-    background-color: white;
+    cursor: pointer;
     border-radius: 2px;
 
 }
