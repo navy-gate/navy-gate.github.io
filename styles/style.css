@@ -25,28 +25,28 @@ header
 	display: flex;
 	flex-direction: column;
 	background: url(../images/bato.jpg) fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 }
 header:before
 {
 	display: block;
-    content: '';
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    height: 100%;
+	content: '';
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
 }
 .header-home-title,.header-home-offers
 {
 	color: white;
-    font-weight: 400;
-    padding: 12px;
-    display: inline-flex;
-    margin:20px 0;
-    cursor: pointer;
-    border-radius: 2px;
+	font-weight: 400;
+	padding: 12px;
+	display: inline-flex;
+	margin:20px 0;
+	cursor: pointer;
+	border-radius: 2px;
 
 }
 .header-home-offers
@@ -56,32 +56,32 @@ header:before
 .main-container-header
 {
 	margin: auto;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    flex-direction: column;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	flex-direction: column;
 
 }
 .header-home-title-main
 {
 	color: white;
-    font-size: 35px;
-    font-weight: 400;
-    text-align: center;
-    padding: 0 10px;
-    
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 10px;
+
 }
 .header-home-paragraph-main
 {
 	color: white;
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-    padding: 0 30px;
-    max-width: 400px;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+	padding: 0 30px;
+	max-width: 400px;
 }
 .header-menu-list
 {
@@ -96,17 +96,17 @@ header:before
 .header-button
 {
 	border-radius: 3px;
-    color: var(--color-main);
-    padding: 10px;
-    background-color: white;
-    width: 110px;
-    text-align: center;
-    height: 22px;
-    line-height: 22px;
-    cursor: pointer;
-    font-size: 14px;
-    box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
-    box-sizing: content-box;
+	color: var(--color-main);
+	padding: 10px;
+	background-color: white;
+	width: 110px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	cursor: pointer;
+	font-size: 14px;
+	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+	box-sizing: content-box;
 }
 .header-info-title
 {
@@ -129,23 +129,23 @@ header:before
 }
 .part1
 {
-	    width: 100%;
-    height: 400px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+	width: 100%;
+	padding: 50px 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 .part2
 {
-	    width: 100%;
-    height: 400px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	width: 100%;
+	height: 400px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	
 }
 .part3
@@ -165,13 +165,13 @@ header:before
 .bateau-container
 {
 	margin: 0 12px;
-    background-color: white;
-    min-height: 280px;
-    width: 480px;
-    border-radius: 6px;
-    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
-    transition: transform 0.4s,box-shadow 0.4s;
-    overflow: hidden;
+	background-color: white;
+	min-height: 280px;
+	width: 480px;
+	border-radius: 6px;
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+	transition: transform 0.4s,box-shadow 0.4s;
+	overflow: hidden;
 }
 .bateau-container:hover
 {
@@ -184,10 +184,10 @@ header:before
 	
 	width: 100%;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
 }
 .bateau-container-content
 {
@@ -195,8 +195,8 @@ header:before
 	width: 100%;
 	padding: 20px;
 	display: flex;
-    flex-direction: column;
-    justify-content: center;
+	flex-direction: column;
+	justify-content: center;
 }
 .list-bateau
 {
@@ -219,10 +219,10 @@ header:before
 .bateau-container-content-type
 {
 	font-size: 13px;
-    color: rgba(1,1,1,0.5);
-    font-weight: 400;
-    cursor: pointer;
-    transition: color 0.4s;
+	color: rgba(1,1,1,0.5);
+	font-weight: 400;
+	cursor: pointer;
+	transition: color 0.4s;
 }
 .bateau-container-content-type:hover
 {
@@ -236,24 +236,24 @@ header:before
 .header-tag-best
 {
 	background-color: white;
-    padding: 5px 8px;
-    border-radius: 5px;
-    color: var(--color-main);
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    font-size: 10px;
-    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
-    font-weight: 700;
+	padding: 5px 8px;
+	border-radius: 5px;
+	color: var(--color-main);
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-size: 10px;
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+	font-weight: 700;
 }
 .bateau-container-content-caracteristics-title
 {
 	font-size: 13px;
-    text-transform: uppercase;
-    color: #0F509A;
-    display: flex;
-    font-weight: 600;
-    padding: 10px 0;
+	text-transform: uppercase;
+	color: #0F509A;
+	display: flex;
+	font-weight: 600;
+	padding: 10px 0;
 }
 .group-caracteristique
 {
@@ -262,15 +262,15 @@ header:before
 }
 .group-caracteristique-item
 {
-    font-size: 12.5px;
-    font-weight: 600;
-    color: rgba(1,1,1,0.6);
+	font-size: 12.5px;
+	font-weight: 600;
+	color: rgba(1,1,1,0.6);
 }
 .group-caracteristique-value
 {
 	font-size: 12.5px;
-    color: var(--color-main);
-    padding: 0 5px;
+	color: var(--color-main);
+	padding: 0 5px;
 }
 .offers-title
 {
@@ -279,7 +279,7 @@ header:before
 	color: rgba(72, 44, 30, 0.7);
 	font-family: "Roboto";
 	font-size: 35px;
-	    margin-top: 85px;
+	margin-top: 85px;
 }
 .team-title
 {
@@ -292,44 +292,44 @@ header:before
 }
 .team-description
 {
-	
-	    color: rgba(1,1,1,0.89);
-    font-family: "Roboto";
-    font-size: 15px;
-    text-align: center;
-    margin: auto;
-    
+	padding: 0 20px;
+	color: rgba(1,1,1,0.89);
+	font-family: "Roboto";
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+
 }
 .offers-description
 {
 	
-	    color: rgba(1,1,1,0.89);
-    font-family: "Roboto";
-    font-size: 15px;
-    text-align: center;
-    padding: 5px 15px;
-    margin-bottom: 85px;
+	color: rgba(1,1,1,0.89);
+	font-family: "Roboto";
+	font-size: 15px;
+	text-align: center;
+	padding: 5px 15px;
+	margin-bottom: 85px;
 }
 .divider {
 	border-bottom: solid rgba(1,1,1,0.15) 1px;
 	position: absolute;
 	bottom: 0;
-	width: 80%;
+	width: 50%;
 }
 .bateau-container-prix
 {
 	font-weight: 500;
-    font-size: 28px;
-    margin-left: auto;
+	font-size: 28px;
+	margin-left: auto;
 }
 .top-part2-titles
 {
-	    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	margin-bottom: 20px;
 
 
 }
@@ -358,10 +358,10 @@ header:before
 .team-item-avatar
 {
 	border-radius: 50%;
-    
-    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
-    width: 75%;
-    height: auto;
+
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+	width: 75%;
+	height: auto;
 }
 .team-item-role
 {
@@ -373,30 +373,47 @@ header:before
 .valeurs-list
 {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+    margin-top: 60px;
 }
 .valeurs-list-item
 {
 	display: flex;
-	margin-right: 150px;
+	padding: 25px 0;
+	width: 80%;
 
 }
 .valeurs-list-item-icon
 {
 	font-size: 45px;
 	color: var(--color-main);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
 }
 .left
 {
+	flex-direction: row-reverse;	
+}
+.left .group-list-item-text
+{
+	margin-right: 0;
 	margin-left: auto;
+}
+.left .valeurs-list-item-icon
+{
+	padding-left: 0;
+	padding-right: 90px;
 }
 .group-list-item-text
 {
 	display: flex;
 	justify-content: center;
-	
+	margin-right: auto;
 	flex-direction: column;
 }
 .valeurs-list-item-title
@@ -404,12 +421,14 @@ header:before
 	font-weight: 700;
 	color: rgba(1,1,1,0.85);
 	font-size: 19px;
+	margin-bottom: 20px;
 }
 .valeurs-list-item-paragraph
 {
-	color: rgba(1,1,1,0.6);
-	font-size: 18px;
+	color: #888B8D;
+	font-size: 15px;
 	margin-top: 0;
+	max-width: 550px;
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
@@ -426,7 +445,7 @@ header:before
 	}
 	
 }
-@media (max-width: 824px), (max-device-width: 824px)
+@media (max-width: 860px), (max-device-width: 860px)
 {
 	.part2
 	{
@@ -448,9 +467,9 @@ header:before
 	.bateau-container
 	{
 		
-    	padding: 0;
-    	
-    	margin: 15px;
+		padding: 0;
+
+		margin: 15px;
 	}
 }
 @media (max-width: 547px), (max-device-width: 547px)

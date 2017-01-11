@@ -6,3 +6,4 @@ L'equipe
 
 
 livret dor interactif questionnaire satisfaction
+crrer composants en temps reel generer
