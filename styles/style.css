@@ -30,6 +30,12 @@ header
 	background-repeat: no-repeat;
 
 }
+footer
+{
+	
+	width: 100%;
+	padding: 30px 0;
+}
 header:before
 {
 	display: block;
@@ -156,13 +162,14 @@ header:before
 {
 	
 	width: 100%;
-	
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	margin: 20px 0;
-	margin-bottom: 90px;
+	
+	padding: 50px 0;
 
 }
 
@@ -387,19 +394,23 @@ header:before
 {
 	display: flex;
 	padding: 25px 0;
-	width: 80%;
+	align-items: center;
 
 }
 .valeurs-list-item-icon
 {
 	font-size: 45px;
-	color: var(--color-main);
-	display: flex;
+    color: var(--color-main);
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 90px;
-    width: 180px;
+    margin-right: 60px;
+    width: 120px;
+    height: 120px;
     text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
 }
 
 .group-list-item-text
@@ -423,6 +434,53 @@ header:before
 	margin-top: 0;
 	max-width: 550px;
 }
+.contact-form
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+input,textarea
+{
+	background-color: transparent;
+    padding: 12px 10px;
+    outline: 0;
+    border: 0;
+    border: 1px solid rgba(1,1,1,0.1);
+    border-radius: 2px;
+    width: 320px;
+    box-shadow: -4px 0em 2em 0 rgba(0,0,0,.1);
+    margin: 10px;
+    transition: border 0.4s;
+    font-family: "Lato";
+}
+textarea
+{
+	min-height: 110px;
+	max-width: 320px;
+}
+input:focus,textarea:focus
+{
+	border: 1px solid rgba(15,80,154,0.4);
+}
+.submit-button
+{
+	border-radius: 3px;
+    color: white ;
+    padding: 10px;
+    background-color: var(--color-main);
+    width: 150px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+    box-sizing: content-box;
+    border: 0;
+    outline: 0;
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
@@ -438,7 +496,7 @@ header:before
 	}
 	
 }
-@media (max-width: 479px), (max-device-width: 479px)
+@media (max-width: 776px), (max-device-width: 776px)
 {
 	.valeurs-list-item
 	{
@@ -446,9 +504,11 @@ header:before
 	}
 	.valeurs-list-item-icon
 	{
-		padding: 0;
-	    padding-bottom: 25px;
-	    width: 100%;
+		margin: 0;
+	}
+	.group-list-item-text
+	{
+		padding: 25px;
 	}
 }
 @media (max-width: 860px), (max-device-width: 860px)
