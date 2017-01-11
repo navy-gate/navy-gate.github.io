@@ -674,3 +674,8 @@ input:focus,textarea:focus
 		padding-top: 100%;
 	}
 }
+@media only screen and (max-device-width: 1024px) {
+    header {
+        background-attachment: scroll;
+    }
+}
