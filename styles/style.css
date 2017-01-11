@@ -129,8 +129,12 @@ header:before
 }
 .part1
 {
-	width: 100%;
-	height: 400px;
+	    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .part2
 {
@@ -138,7 +142,9 @@ header:before
     height: 400px;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 	
 }
 .part3
@@ -274,6 +280,25 @@ header:before
 	font-size: 35px;
 	    margin-top: 85px;
 }
+.team-title
+{
+
+	font-weight: 300;
+	color: rgba(72, 44, 30, 0.7);
+	font-family: "Roboto";
+	font-size: 35px;
+	margin: auto;
+}
+.team-description
+{
+	
+	    color: rgba(1,1,1,0.89);
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    
+}
 .offers-description
 {
 	
@@ -290,6 +315,59 @@ header:before
 	bottom: 0;
 	width: 80%;
 }
+.bateau-container-prix
+{
+	font-weight: 500;
+    font-size: 28px;
+    margin-left: auto;
+}
+.top-part2-titles
+{
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+
+
+}
+.persons-team
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.team-item
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+}
+.team-item-name
+{
+	font-weight: 700;
+	margin-top: 12px;
+	text-align: center;
+}
+.team-item-avatar
+{
+	border-radius: 50%;
+    
+    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+    width: 75%;
+    height: auto;
+}
+.team-item-role
+{
+	margin: 0;
+	text-align: center;
+	margin-top: 4px;
+	color: rgba(1,1,1,0.6);
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
@@ -302,6 +380,18 @@ header:before
 	{
 		height: auto;
 
+	}
+	
+}
+@media (max-width: 824px), (max-device-width: 824px)
+{
+	.part2
+	{
+		height:auto;
+	}
+	.persons-team
+	{
+		flex-direction: column;
 	}
 	
 }
