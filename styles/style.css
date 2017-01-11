@@ -135,6 +135,7 @@ header:before
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .part2
 {
@@ -368,6 +369,47 @@ header:before
 	text-align: center;
 	margin-top: 4px;
 	color: rgba(1,1,1,0.6);
+}
+.valeurs-list
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.valeurs-list-item
+{
+	display: flex;
+	margin-right: 150px;
+
+}
+.valeurs-list-item-icon
+{
+	font-size: 45px;
+	color: var(--color-main);
+}
+.left
+{
+	margin-left: auto;
+}
+.group-list-item-text
+{
+	display: flex;
+	justify-content: center;
+	
+	flex-direction: column;
+}
+.valeurs-list-item-title
+{
+	font-weight: 700;
+	color: rgba(1,1,1,0.85);
+	font-size: 19px;
+}
+.valeurs-list-item-paragraph
+{
+	color: rgba(1,1,1,0.6);
+	font-size: 18px;
+	margin-top: 0;
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
