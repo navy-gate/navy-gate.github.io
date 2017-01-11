@@ -82,6 +82,12 @@ header:before
 	-webkit-align-items:center;
 	display:-webkit-flex;
 
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+
 }
 .header-home-title-main
 {
@@ -380,6 +386,11 @@ header:before
 	position: absolute;
 	bottom: 0;
 	width: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 .bateau-container-prix
 {
