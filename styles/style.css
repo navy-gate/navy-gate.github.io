@@ -134,25 +134,25 @@ header:before
 {
 	
 	width: 100%;
-	height:300px;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 20px 0;
+
 
 }
 
 .bateau-container
 {
 	margin: 0 12px;
-	background-color: white;
-	height: 240px;
-    width: 320px;
-	
-	border-radius: 6px;
-	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
-	transition: transform 0.4s,box-shadow 0.4s;
-	
-	overflow: hidden;
+    background-color: white;
+    min-height: 280px;
+    width: 480px;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+    transition: transform 0.4s,box-shadow 0.4s;
+    overflow: hidden;
 }
 .bateau-container:hover
 {
@@ -161,21 +161,23 @@ header:before
 }
 .bateau-container-header
 {
-	height: 55%;
+	height: 250px;
 	
 	width: 100%;
 	display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
 }
 .bateau-container-content
 {
-	height: 45%;
+	min-height: 45%;
 	width: 100%;
 	padding: 20px;
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
 }
 .list-bateau
 {
@@ -186,13 +188,14 @@ header:before
 }
 .bateau-container-header-image
 {
-	height: 280px;
+	height: 370px;
 }
 .bateau-container-content-title
 {
 	font-size: 16px;
 	color: rgba(1,1,1,1);
 	font-weight: 500;
+	display: flex;
 }
 .bateau-container-content-type
 {
@@ -205,6 +208,50 @@ header:before
 .bateau-container-content-type:hover
 {
 	color: var(--color-main);
+}
+.bateau-container-content-caracteristics
+{
+	width: 100%;
+	margin-top: 18px;
+}
+.header-tag-best
+{
+	background-color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: var(--color-main);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 10px;
+    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+    font-weight: 700;
+}
+.bateau-container-content-caracteristics-title
+{
+	font-size: 13px;
+    text-transform: uppercase;
+    color: #0F509A;
+    display: flex;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.group-caracteristique
+{
+	display: flex;
+	padding-bottom: 12px;
+}
+.group-caracteristique-item
+{
+    font-size: 12.5px;
+    font-weight: 600;
+    color: rgba(1,1,1,0.6);
+}
+.group-caracteristique-value
+{
+	font-size: 12.5px;
+    color: var(--color-main);
+    padding: 0 5px;
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
@@ -221,7 +268,7 @@ header:before
 	}
 	
 }
-@media (max-width: 782px), (max-device-width: 782px)
+@media (max-width: 1220px), (max-device-width: 1220px)
 {
 	.list-bateau
 	{
@@ -230,13 +277,13 @@ header:before
 	}
 	.bateau-container
 	{
-		height: 240px;
+		
     	padding: 0;
     	
     	margin: 15px;
 	}
 }
-@media (max-width: 365px), (max-device-width: 365px)
+@media (max-width: 547px), (max-device-width: 547px)
 {
 	.bateau-container
 	{
