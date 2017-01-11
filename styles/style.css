@@ -38,7 +38,7 @@ header:before
 	background-color: rgba(0,0,0,0.3);
 	height: 100%;
 }
-.header-home-title,.header-home-offers
+.header-home-title,.header-home-offers,.header-home-dream
 {
 	color: white;
 	font-weight: 400;
@@ -52,6 +52,10 @@ header:before
 .header-home-offers
 {
 	margin: 0 20px;
+}
+.header-home-dream
+{
+	margin-right: 20px;
 }
 .main-container-header
 {
@@ -376,7 +380,7 @@ header:before
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	
     margin-top: 60px;
 }
 .valeurs-list-item
@@ -393,22 +397,11 @@ header:before
 	display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 90px;
+    padding-right: 90px;
+    width: 180px;
+    text-align: center;
 }
-.left
-{
-	flex-direction: row-reverse;	
-}
-.left .group-list-item-text
-{
-	margin-right: 0;
-	margin-left: auto;
-}
-.left .valeurs-list-item-icon
-{
-	padding-left: 0;
-	padding-right: 90px;
-}
+
 .group-list-item-text
 {
 	display: flex;
@@ -444,6 +437,19 @@ header:before
 
 	}
 	
+}
+@media (max-width: 479px), (max-device-width: 479px)
+{
+	.valeurs-list-item
+	{
+		flex-direction: column;
+	}
+	.valeurs-list-item-icon
+	{
+		padding: 0;
+	    padding-bottom: 25px;
+	    width: 100%;
+	}
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
