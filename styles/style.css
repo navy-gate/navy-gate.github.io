@@ -2,6 +2,7 @@
 *
 {
 	--color-main: #0F509A;
+	box-sizing: border-box;
 }
 html,body
 {
@@ -103,6 +104,7 @@ header:before
     cursor: pointer;
     font-size: 14px;
     box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+    box-sizing: content-box;
 }
 .header-info-title
 {
@@ -149,7 +151,7 @@ header:before
 	border-radius: 6px;
 	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
 	transition: transform 0.4s,box-shadow 0.4s;
-	cursor: pointer;
+	
 	overflow: hidden;
 }
 .bateau-container:hover
@@ -167,6 +169,14 @@ header:before
     align-items: center;
     overflow: hidden;
 }
+.bateau-container-content
+{
+	height: 45%;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
 .list-bateau
 {
 	display: flex;
@@ -177,6 +187,24 @@ header:before
 .bateau-container-header-image
 {
 	height: 280px;
+}
+.bateau-container-content-title
+{
+	font-size: 16px;
+	color: rgba(1,1,1,1);
+	font-weight: 500;
+}
+.bateau-container-content-type
+{
+	font-size: 13px;
+    color: rgba(1,1,1,0.5);
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+.bateau-container-content-type:hover
+{
+	color: var(--color-main);
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
