@@ -345,7 +345,8 @@ header:before
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 25px;
+	margin: 25px;
+	width: 160px;
 }
 .team-item-name
 {
