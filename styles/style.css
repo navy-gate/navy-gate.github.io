@@ -642,9 +642,10 @@ input:focus,textarea:focus
 #webGLContainer
 {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
