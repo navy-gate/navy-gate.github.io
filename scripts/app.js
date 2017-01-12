@@ -9,8 +9,8 @@ $(function()
 		location.reload();
 	});
    
-	$("canvas").attr('width', '');
-	$("canvas").attr('height', '');
+	$("canvas").removeAttr('width');
+	$("canvas").removeAttr('height');
   	
 });
 
