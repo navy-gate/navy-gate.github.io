@@ -650,7 +650,7 @@ canvas
 {
 	display: flex;
     width: 100%;
-    
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -663,6 +663,11 @@ canvas
 	#webGLContainer
 	{
 		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.bottom-margin
+	{
+		margin: 0;
 	}
 	#webgl
 	{
