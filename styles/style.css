@@ -652,6 +652,10 @@ input:focus,textarea:focus
 {
 	margin-bottom: 45px;
 }
+@media (max-width: 825px), (max-device-width: 825px)
+{
+	
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
