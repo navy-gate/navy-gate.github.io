@@ -11,6 +11,7 @@ $(function()
    
 	$("canvas").removeAttr('width');
 	$("canvas").removeAttr('height');
+	$("canvas").removeAttr('style');
   	
 });
 
