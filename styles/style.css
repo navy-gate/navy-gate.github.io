@@ -548,7 +548,7 @@ header:before
 	-webkit-justify-content:center;
 	-webkit-align-items:center;
 }
-input,textarea
+input:not([type='color']),textarea
 {
 	background-color: transparent;
     padding: 12px 10px;
@@ -562,6 +562,21 @@ input,textarea
     transition: border 0.4s;
     -webkit-transition:border 0.4s;
     font-family: "Lato";
+}
+input[type="color"]
+{
+	background-color: transparent;
+    outline: 0;
+    border: 0;
+    border: 1px solid rgba(1,1,1,0.1);
+    border-radius: 2px;
+    width: 50px;
+    box-shadow: -4px 0em 2em 0 rgba(0,0,0,.1);
+    margin: 10px;
+    transition: border 0.4s;
+    -webkit-transition:border 0.4s;
+    font-family: "Lato";
+
 }
 textarea
 {
