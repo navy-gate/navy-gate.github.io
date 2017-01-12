@@ -658,9 +658,18 @@ canvas
 {
 	margin-bottom: 45px;
 }
-@media (max-width: 825px), (max-device-width: 825px)
+@media (max-width: 1211px), (max-device-width: 1211px)
 {
-
+	#webGLContainer
+	{
+		flex-direction: column;
+	}
+	#webgl
+	{
+		margin: 0;
+		display: block;
+		margin: 20px 0;
+	}
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
