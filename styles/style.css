@@ -679,8 +679,8 @@ input:not([type='color']):not([type='submit']),textarea:focus
 {
 	#webgl
 	{
-		width: 133px;
-		height: 100px;
+		width: 333px;
+		height: 250px;
 	}
 }
 @media (max-width: 860px), (max-device-width: 860px)
