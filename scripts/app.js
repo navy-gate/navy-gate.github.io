@@ -4,5 +4,9 @@ $(function()
 	{
 		$("html, body").animate({ scrollTop: $('.part3').offset().top }, 1000);
 	});
+	$(document).on('click', '.header-home-title', function(event) 
+	{
+		location.reload();
+	});
    
 });
