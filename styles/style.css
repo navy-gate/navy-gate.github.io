@@ -673,6 +673,10 @@ input:not([type='color']):not([type='submit']),textarea:focus
 		margin: 20px 0;
 	}
 }
+@media (max-width: 854px), (max-device-width: 854px)
+{
+
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
