@@ -641,11 +641,7 @@ input:not([type='color']):not([type='submit']),textarea:focus
 	display: flex;
 	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
 }
-canvas
-{
-	width: 800px;
-	height: 600px;
-}
+
 #webGLContainer
 {
 	display: flex;
