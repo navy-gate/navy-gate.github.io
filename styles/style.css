@@ -668,8 +668,8 @@ input:not([type='color']):not([type='submit']),textarea:focus
 	}
 	#webgl
 	{
-		width: auto;
-		height: auto;
+		width: 533px;
+    	height: 400px;
 		margin: 0;
 		display: block;
 		margin: 20px 0;
