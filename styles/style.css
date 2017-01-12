@@ -648,6 +648,10 @@ input:focus,textarea:focus
     justify-content: center;
     align-items: center;
 }
+.bottom-margin
+{
+	margin-bottom: 45px;
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
