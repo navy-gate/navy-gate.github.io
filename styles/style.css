@@ -5,6 +5,10 @@
 	--color-main: #0F509A;
 	box-sizing: border-box;
 }
+a
+{
+	text-decoration: none;
+}
 html,body
 {
 
@@ -593,6 +597,10 @@ input:focus,textarea:focus
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 0;
+}
+.black-header-menu .header-home-title,.black-header-menu .header-home-offers,.black-header-menu .header-home-dream
+{
+	color: rgba(1,1,1,0.6);
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
