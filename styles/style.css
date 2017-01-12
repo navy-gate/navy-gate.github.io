@@ -552,7 +552,7 @@ header:before
 	-webkit-justify-content:center;
 	-webkit-align-items:center;
 }
-input:not([type='color']),textarea,select,input:not([type='submit'])
+input:not([type='color']):not([type='submit']),textarea,select
 {
 	background-color: transparent;
     padding: 12px 10px;
