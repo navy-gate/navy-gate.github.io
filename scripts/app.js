@@ -17,5 +17,6 @@ $(function()
 });
 
 function resize(){    
+	console.log("k")
     $("canvas").outerHeight($(window).height()-$("canvas").offset().top- Math.abs($("canvas").outerHeight(true) - $("canvas").outerHeight()));
   }
