@@ -634,7 +634,7 @@ input:focus,textarea:focus
 #webgl
 {
 	
-	
+	margin-right: 26px;
 	display: flex;
 	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
 }
@@ -643,7 +643,7 @@ input:focus,textarea:focus
 {
 	display: flex;
     width: 100%;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
 }
