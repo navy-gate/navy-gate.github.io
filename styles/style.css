@@ -664,6 +664,7 @@ canvas
 	{
 		flex-direction: column;
 		justify-content: flex-start;
+	    margin-top: 20px;
 	}
 	.bottom-margin
 	{
