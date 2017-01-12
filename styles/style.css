@@ -689,6 +689,11 @@ input:not([type='color']):not([type='submit']),textarea:focus
 	{
 		width: 60%;
 	}
+	#webg1
+	{
+		width: 160px;
+		height: 120px;
+	}
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
