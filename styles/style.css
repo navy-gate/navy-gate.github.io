@@ -677,7 +677,11 @@ input:not([type='color']):not([type='submit']),textarea:focus
 }
 @media (max-width: 854px), (max-device-width: 854px)
 {
-
+	#webgl
+	{
+		width: 133px;
+		height: 100px;
+	}
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
