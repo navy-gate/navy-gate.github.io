@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navy-Gate Boat Customizer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="three.js"></script> 
+	<script type="text/javascript" src="OrbitControls.js"></script>
+	<script type="text/javascript" src="q.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+	<div id="webGLContainer">
+		<h1 id="appStatus"></h1>
+		<div id="webgl">
+	
+		</div>
+		<p>WebGL est requis pour éxécuter cette application</p>
+	</div>
+	
+
+	
+		<form>
+			<fieldset>
+				<legend>Personalisation du bateau :</legend>
+				<label for="modeleBateau">Modèle :</label>
+				<select name="modeleBateau" id="modeleBateau">
+					<option value="BateauA">Bateau A</option>
+					<option value="BateauB">Bateau B</option>
+					<option value="BateauC">Bateau C</option>
+				</select><br/>
+				<label for="couleurPrimaire">Couleur Primaire :</label>
+				<input type="color" name="couleurPrimaire" id="couleurPrimaire" /><br/>
+				<label for="couleurSecondaire">Couleur Secondaire :</label>
+				<input type="color" name="couleurSecondaire" id="couleurSecondaire" /><br/>
+				<label for="propulsion">Système de propulsion : </label>
+				<select name="propulsion" id="propulsion"></select>
+			</fieldset>
+
+
+		</form>
+	
+</div>
+
+</body>
+	<script type="text/javascript" src="main.js"></script>
+</html>
