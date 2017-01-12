@@ -9,7 +9,9 @@ $(function()
 		location.reload();
 	});
    
-	
+	$( window ).resize(function() {
+  		console.log("ok");
+	});
   	
 });
 
