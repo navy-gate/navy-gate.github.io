@@ -633,6 +633,7 @@ input:focus,textarea:focus
 
 #webgl
 {
+	margin-right: 25px;
 	
 	width: 800px;
 	height: 600px;
