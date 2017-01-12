@@ -634,7 +634,8 @@ input:focus,textarea:focus
 #webgl
 {
 	
-	margin-right: 26px;
+	width: 800px;
+	height: 600px;
 	display: flex;
 	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
 }
@@ -643,7 +644,7 @@ input:focus,textarea:focus
 {
 	display: flex;
     width: 100%;
-    
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -653,7 +654,7 @@ input:focus,textarea:focus
 }
 @media (max-width: 825px), (max-device-width: 825px)
 {
-
+	
 }
 @media (max-width: 860px), (max-device-width: 860px)
 {
