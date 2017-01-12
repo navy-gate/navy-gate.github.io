@@ -658,7 +658,7 @@ canvas
 {
 	margin-bottom: 45px;
 }
-@media (max-width: 1211px), (max-device-width: 1211px)
+@media (max-width: 1392px), (max-device-width: 1392px)
 {
 	#webGLContainer
 	{
