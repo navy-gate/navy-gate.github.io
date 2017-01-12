@@ -683,6 +683,13 @@ input:not([type='color']):not([type='submit']),textarea:focus
 		height: 250px;
 	}
 }
+@media (max-width: 576px), (max-device-width: 576px)
+{
+	#modeleBateau,#propulsion
+	{
+		width: 60%;
+	}
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
