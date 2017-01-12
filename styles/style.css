@@ -62,6 +62,10 @@ header:before
 
 	display:-webkit-inline-flex;
 }
+.header-home-title-left
+{
+	margin-right: 20px;
+}
 .header-home-offers
 {
 	margin: 0 20px;
