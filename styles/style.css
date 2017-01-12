@@ -602,6 +602,30 @@ input:focus,textarea:focus
 {
 	color: rgba(1,1,1,0.6);
 }
+#container
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
+
+#webgl
+{
+	border: 1px solid black;
+	width: 800px;
+	height: 600px;
+	display: flex;
+}
+
+#webGLContainer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 @media (max-width: 860px), (max-device-width: 860px)
 {
 
