@@ -1,4 +1,5 @@
-
+var width = $("#webgl").width();
+var height = $("#webgl").height();
 
 var camera, scene, renderer, loader;
 var controls;

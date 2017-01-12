@@ -669,7 +669,7 @@ input:not([type='color']):not([type='submit']),textarea:focus
 	#webgl
 	{
 		margin: 0;
-		
+		width: 90%;
 		margin: 20px 0;
 	}
 }
