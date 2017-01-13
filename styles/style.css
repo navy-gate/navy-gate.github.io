@@ -402,6 +402,7 @@ header:before
 	font-size: 15px;
 	text-align: center;
 	margin: auto;
+	max-width: 650px;
 
 }
 .offers-description
@@ -413,6 +414,7 @@ header:before
 	text-align: center;
 	padding: 5px 15px;
 	margin-bottom: 85px;
+    max-width: 650px;
 }
 .divider {
 	border-bottom: solid rgba(1,1,1,0.15) 1px;
@@ -737,7 +739,90 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 	padding: 14px;
 	margin-top: 60px;
 }
+.go-top
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+    -webkit-transition:opacity 0.4s;
+}
+.top-icon
+{
 
+	color: var(--color-main);
+}
+.invisible
+{
+	opacity: 0;
+	pointer-events: none;
+}
+.container-images
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+	display:-webkit-flex;
+	
+	-webkit-justify-content:center;
+	-webkit-align-items:center;
+
+}
+.slide-image
+{
+	position: relative;
+	width: 30%;
+
+}
+.slide-image-item
+{
+	user-select :none;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+	opacity: 0;
+	transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+}
+.left-slide-button,.right-slide-button
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+}
+.active-slide
+{
+	opacity: 1;
+}
 @media (max-width: 1392px), (max-device-width: 1392px)
 {
 	#webGLContainer
@@ -875,6 +960,14 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 	{
 		margin: 15px 0;
 		width: 90%;
+	}
+}
+@media (max-width: 1553px), (max-device-width: 1553px)
+{
+	
+	.list-bateau
+	{
+		width: 98%;
 	}
 }
 @media (max-width: 399px), (max-device-width: 399px)
