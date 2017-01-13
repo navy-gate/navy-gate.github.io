@@ -414,6 +414,7 @@ header:before
 	text-align: center;
 	padding: 5px 15px;
 	margin-bottom: 85px;
+    max-width: 650px;
 }
 .divider {
 	border-bottom: solid rgba(1,1,1,0.15) 1px;
