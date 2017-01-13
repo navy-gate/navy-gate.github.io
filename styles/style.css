@@ -876,6 +876,14 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 		width: 90%;
 	}
 }
+@media (max-width: 1319px), (max-device-width: 1319px)
+{
+	
+	.list-bateau
+	{
+		width: 98%;
+	}
+}
 @media (max-width: 399px), (max-device-width: 399px)
 {
 	input:not([type='color']):not([type='submit']), textarea, select
