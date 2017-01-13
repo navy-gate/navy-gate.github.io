@@ -13,9 +13,9 @@ $(function()
   		$("canvas").css('height', $("#webgl").height());
   		$("canvas").css('width', $("#webgl").width());
 	});
-<<<<<<< HEAD
+
   	//$("#webgl").bind("wheel mousewheel", function(e) {e.preventDefault()});
-=======
+
   	$("#webgl").bind("wheel mousewheel", function(e) {e.preventDefault()});
   	var k = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 	n = 0;
@@ -31,7 +31,7 @@ $(function()
 	        n = 0;
 	    }
 	});
->>>>>>> 23e947fb0b25b68be058cc44b88b1bddf1bc8962
+
 
 	$('body').keyup(function(event) {
 		if(event.which == 27) {
