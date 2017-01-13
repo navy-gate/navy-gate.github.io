@@ -765,6 +765,18 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 		height: auto;
 
 	}
+	.header-home-offers
+	{
+		margin: 0 10px;
+	}
+	.header-home-dream
+	{
+		margin-right: 10px;
+	}
+	.header-home-title
+	{
+		margin: 10px 0;
+	}
 	
 }
 @media (max-width: 776px), (max-device-width: 776px)
