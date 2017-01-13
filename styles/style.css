@@ -844,6 +844,13 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 		width: 90%;
 	}
 }
+@media (max-width: 399px), (max-device-width: 399px)
+{
+	input:not([type='color']):not([type='submit']), textarea, select
+	{
+		width: auto;
+	}
+}
 @media (max-width: 540px), (max-device-width: 540px)
 {
 
