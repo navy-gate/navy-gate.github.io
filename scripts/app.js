@@ -6,7 +6,7 @@ $(function()
 	});
 	$(document).on('click', '.header-home-title', function(event) 
 	{
-		location.reload();
+		$("html, body").animate({ scrollTop: $('.part1').offset().top }, 1000);
 	});
    
 	$( window ).resize(function() {
