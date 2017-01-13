@@ -130,13 +130,36 @@ header:before
 	-webkit-justify-content:center;
 	-webkit-align-items:center;
 }
+.header-buttons
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-button
 {
+	margin: 0 8px;
 	border-radius: 3px;
 	color: var(--color-main);
 	padding: 10px;
 	background-color: white;
-	width: 110px;
+	width: 150px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	cursor: pointer;
+	font-size: 14px;
+	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+	box-sizing: content-box;
+}
+.header-button-create
+{
+	margin: 0 8px;
+	border-radius: 3px;
+	color: var(--color-main);
+	padding: 10px;
+	background-color: white;
+	width: 150px;
 	text-align: center;
 	height: 22px;
 	line-height: 22px;
@@ -746,6 +769,17 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 	{
 		width: 333px;
 		height: 250px;
+	}
+}
+@media (max-width: 472px), (max-device-width: 472px)
+{
+	.header-buttons
+	{
+		flex-direction: column;
+	}
+	.header-button,.header-button-create
+	{
+		margin: 4px 0;
 	}
 }
 @media (max-width: 376px), (max-device-width: 376px)
