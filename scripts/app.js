@@ -14,5 +14,30 @@ $(function()
   		$("canvas").css('width', $("#webgl").width());
 	});
   	$("#webgl").bind("wheel mousewheel", function(e) {e.preventDefault()});
+
+  	$(document).on('click', '.go-top', function(event) 
+  	{
+  		
+  		$("html, body").animate({ scrollTop: $('header').offset().top }, 1000);
+
+  	});
+  	$(window).scroll(function()
+  	{
+
+  		if ($(this).scrollTop() > 1100)
+  		{
+  			if($(".go-top").hasClass('invisible'))
+  			{
+  				$(".go-top").removeClass('invisible');
+  			}
+  		}
+  		else
+  		{
+  			if(!$(".go-top").hasClass('invisible'))
+  			{
+  				$(".go-top").addClass('invisible');
+  			}
+  		}
+  	});
 });
 
