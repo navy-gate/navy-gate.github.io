@@ -10,6 +10,14 @@ var bateauActuel;
 var propulsionActuelle;
 var offsetBoat;
 
+var prixTotal = 0;
+function updateTotalPrice()
+{
+	prixTotal = prices[$("#modeleBateau").val()] + prices[$("#propulsion").val()];
+	$("#prixFinal").html("Approximation du prix : " + prixTotal + " €");
+}
+
+
 manager.onStart = function()
 {
 	$("#appStatus").html("Chargement en cours ...");
@@ -100,6 +108,7 @@ function init()
 	// SETS THE RENDERER
 	$("#webgl").append(renderer.domElement);
 
+	updateTotalPrice();
 	animate();
 }
 
@@ -121,6 +130,18 @@ var offsetPropulsion = {
 	"BoatProp16": { "BateauB": { x:0, y:-2, z:7} },
 	"BoatProp16-PRO": { "BateauB": { x:0, y:-2, z:7}, "BateauC": { x:-2, y:-6, z:-20.6}},
 	"BoatProp32": { "BateauC": { x:-3, y:-4.5, z:-21}}
+}
+
+var prices = {
+	"-": 0,
+	"BateauA": 4000,
+	"BateauB": 7500,
+	"BateauC": 22000,
+	"Rames": 300,
+	"BoatProp12": 1500,
+	"BoatProp16": 2200,
+	"BoatProp16-PRO": 2800,
+	"BoatProp32": 3500
 }
 
 function animate()
@@ -222,6 +243,8 @@ $("#modeleBateau").on("change", function(e) {
 	// Change the boat offset
 	offsetBoat = boatOffsets[nom];
 
+	updateTotalPrice();
+
 });
 
 $("#couleurPrimaire").on("change", function(e) {
@@ -234,4 +257,6 @@ $("#couleurSecondaire").on("change", function(e) {
 
 $("#propulsion").on("change", function(e) {
 	loadPropulsionModel($("#propulsion").val());
+
+	updateTotalPrice();
 });

@@ -10,7 +10,6 @@ $(function()
 	});
    
 	$( window ).resize(function() {
-  		console.log("ok");
   		$("canvas").css('height', $("#webgl").height());
   		$("canvas").css('width', $("#webgl").width());
 	});
