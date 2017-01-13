@@ -929,5 +929,5 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 	cursor: pointer;
 }
 #footer-ea-taunt {
-	font-size: 0.15em;
+	font-size: 0.1em;
 }
