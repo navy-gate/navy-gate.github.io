@@ -39,5 +39,43 @@ $(function()
   			}
   		}
   	});
+
+  	$(".right-slide-button").click(function(event) 
+  	{
+  		var idslide = $( ".slide-image-item[class='slide-image-item active-slide']").attr('id-slide');
+  		idslide++;
+  		if(idslide>3)
+  		{
+  			idslide=1;
+  		}
+  		
+  		$(".slide-image-item").removeClass('active-slide');
+  		setTimeout(function()
+  		{ 
+  			$( '.slide-image-item[id-slide="'+idslide+'"]' ).addClass('active-slide')
+
+  		}, 400);
+  		
+  		
+  	});
+  	$(".left-slide-button").click(function(event) 
+  	{
+  		var idslide = $( ".slide-image-item[class='slide-image-item active-slide']").attr('id-slide');
+  		idslide--;
+  		if(idslide==0)
+  		{
+  			idslide=3;
+  		}
+  		
+  		$(".slide-image-item").removeClass('active-slide');
+  		setTimeout(function()
+  		{ 
+  			$( '.slide-image-item[id-slide="'+idslide+'"]' ).addClass('active-slide')
+
+  		}, 400);
+  		
+  		
+  		
+  	});
 });
 
