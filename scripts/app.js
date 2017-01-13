@@ -13,7 +13,7 @@ $(function()
   		$("canvas").css('height', $("#webgl").height());
   		$("canvas").css('width', $("#webgl").width());
 	});
-  	$("#webgl").bind("wheel mousewheel", function(e) {e.preventDefault()});
+  	//$("#webgl").bind("wheel mousewheel", function(e) {e.preventDefault()});
 
   	$(document).on('click', '.go-top', function(event) 
   	{
