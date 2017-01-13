@@ -402,6 +402,7 @@ header:before
 	font-size: 15px;
 	text-align: center;
 	margin: auto;
+	max-width: 650px;
 
 }
 .offers-description
