@@ -108,8 +108,10 @@ function init()
 	// SETS THE RENDERER
 	$("#webgl").append(renderer.domElement);
 
+	changeColorInputs();
 	updateTotalPrice();
 	animate();
+
 }
 
 var systemePropulsion = {
@@ -184,6 +186,33 @@ function animateBoat()
 
 loadassets();
 
+
+
+function toHex(d) {
+    return  ("0"+(Number(d).toString(16))).slice(-2).toUpperCase()
+}
+
+function changeColorInputs()
+{
+	prim = bateauActuel.material.materials[0].color;
+	hexPrim = "#";
+	hexPrim += toHex(prim.r*255);
+	hexPrim += toHex(prim.g*255);
+	hexPrim += toHex(prim.b*255);
+
+	sec = bateauActuel.material.materials[1].color;
+	hexSec = "#";
+	hexSec += toHex(sec.r*255);
+	hexSec += toHex(sec.g*255);
+	hexSec += toHex(sec.b*255);
+
+	console.log(hexPrim);
+	console.log(hexSec);
+
+	$('#couleurPrimaire').val(hexPrim);
+	$('#couleurSecondaire').val(hexSec);
+}
+
 function changeColorBoat(index, val)
 {
 	var r = parseInt(val.substring(1,3),16)/255;
@@ -244,7 +273,7 @@ $("#modeleBateau").on("change", function(e) {
 	offsetBoat = boatOffsets[nom];
 
 	updateTotalPrice();
-
+	changeColorInputs();
 });
 
 $("#couleurPrimaire").on("change", function(e) {
