@@ -876,7 +876,7 @@ input:not([type='color']):not([type='submit']):focus,textarea:focus
 		width: 90%;
 	}
 }
-@media (max-width: 1319px), (max-device-width: 1319px)
+@media (max-width: 1553px), (max-device-width: 1553px)
 {
 	
 	.list-bateau
