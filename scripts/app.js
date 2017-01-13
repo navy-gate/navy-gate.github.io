@@ -14,7 +14,7 @@ $(function()
   		$("canvas").css('width', $("#webgl").width());
 	});
   	//$("#webgl").bind("wheel mousewheel", function(e) {e.preventDefault()});
-
+ 
   	$(document).on('click', '.go-top', function(event) 
   	{
   		
